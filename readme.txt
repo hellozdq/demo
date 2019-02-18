@@ -47,6 +47,11 @@ git branch -d dev 删除分支
 
 git log --graph 看分支合并图
 
+准备合并dev分支，请注意--no-ff参数，表示禁用Fast forward：
+git merge --no-ff -m "merge with no-ff" dev
+合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
+
+git stash    stash功能，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
 
 
 
