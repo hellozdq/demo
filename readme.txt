@@ -45,6 +45,9 @@ git branch -d dev 删除分支
 删除分支：git branch -d <name>
 -----------
 
+git log --graph 看分支合并图
+
+
 
 
 
