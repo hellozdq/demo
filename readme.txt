@@ -61,3 +61,15 @@ git stash list 看刚刚的工作现场
 git branch -d feature-vulcan 删除分支
 git branch -D feature-vulcan 强行删除分支
 
+
+ 
+ 
+删除 node_modules
+npm install rimraf -g
+rimraf node_modules
+
+vue-cli 依赖
+cnpm install element-ui vuex axios mysql express body-parser vux lib-flexible postcss-loader postcss-px2rem --save  （回车）
+cnpm install node-sass sass-loader less less-loader vux-loader --save-dev  （回车）
+
+
