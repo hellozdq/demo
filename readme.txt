@@ -25,6 +25,14 @@ git commit -m "info"
 git checkout -- test.txt
 
 远程仓库
+
+ssh：
+     git config --global user.name "yourname"
+     git config --global user.email“your@email.com"
+在github添加ssh
+然后 ssh -T git@github.com
+
+
 git remote add origin git@github.com:michaelliao/learngit.git 
 git push --u origin master 第一次
 git push origin master
