@@ -35,7 +35,9 @@ ssh：
 
 git remote add origin git@github.com:michaelliao/learngit.git 
 git push --u origin master 第一次
-git push origin master
+git push origin master 更新最新到git
+
+git clone git@github.com:michaelliao/gitskills.git 拷贝下来
 
 git checkout -b dev
 git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
